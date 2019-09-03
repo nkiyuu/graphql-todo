@@ -1,0 +1,5 @@
+GET http://localhost:8080/graphql?query={todo(id:"b"){id,text,done}}
+
+###
+
+GET http://localhost:8080/graphql?query={todos(done:"false"){id,text,done}}
